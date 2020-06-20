@@ -1,4 +1,7 @@
 {
     "name": "@mazz3015/scratchlib",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "A powerful NPM module/library to interact with the Scratch API",
+    "license": "MIT",
+    "repository": "Ma15fo43/ScratchLib",
 }
