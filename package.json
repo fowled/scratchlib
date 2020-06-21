@@ -2,8 +2,15 @@
     "name": "@ma15fo43/scratchlib",
     "version": "1.0.2",
     "description": "A powerful NPM module/library to interact with the Scratch API",
+    "main": "index.js",
+    "types": "main.d.ts",
     "license": "MIT",
     "repository": "Ma15fo43/ScratchLib",
     "homepage": "https://github.com/Ma15fo43/ScratchLib",
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "dependencies": {
+        "typescript": "^3.9.5"
+    }
 }
