@@ -1,7 +1,7 @@
 <div align="center">
     <h1><a href="https://www.npmjs.com/package/@mazz3015/scratchlib">@mazz3015/scratchlib</a></h1>
     <p>A powerful <b>library</b> to interact with the <b>Scratch API</b> 🚀</p>
-    <img src="https://user-images.githubusercontent.com/37367577/85211475-ebe72500-b349-11ea-8c8f-943698b58434.png" alt="logo" width="500" /> 
+    <img src="https://user-images.githubusercontent.com/37367577/85211475-ebe72500-b349-11ea-8c8f-943698b58434.png" alt="logo" width="500" />
     <hr />
     <p>
         <a href="https://www.npmjs.com/package/@mazz3015/scratchlib"><img src="https://img.shields.io/npm/v/@mazz3015/scratchlib" alt="npm shit"></a>
@@ -17,14 +17,24 @@
 - [About](#About)
 - [Installation](#Installation)
     - [Via NPM](#NPM)
+- [How to use](#how-to-use)
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [Help](#help)
 
-## Install
+## About
+**ScratchLib** is a powerful **Node.JS module** to work with the [Scratch API](https://en.scratch-wiki.info/wiki/Scratch_API_(2.0)).
+It provides many *methods and properties* you never heard of, and does requests for you.
+
+## Installation
+### NPM
+Open a terminal. If you are beginning your project, init the folder with ```npm init```.
+It will create a **package.json** file.
 
 ## How to use
 
 ## Examples
 
-## Support
+## Contributing
+
+## Help
