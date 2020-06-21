@@ -8,7 +8,8 @@
         <img src="https://img.shields.io/bundlephobia/min/@mazz3015/scratchlib" alt="npm bundle size">
         <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@mazz3015/scratchlib">
         <img alt="npm" src="https://img.shields.io/npm/dy/@mazz3015/scratchlib">
-        <br><img alt="npm badge" src="https://nodei.co/npm/@mazz3015/scratchlib.png">
+        <br><br>
+        <img alt="npm badge" src="https://nodei.co/npm/@mazz3015/scratchlib.png">
     </p>
 </div>
 
