@@ -3,5 +3,6 @@
     "version": "1.0.1",
     "description": "A powerful NPM module/library to interact with the Scratch API",
     "license": "MIT",
-    "repository": "Ma15fo43/ScratchLib"
+    "repository": "Ma15fo43/ScratchLib",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
