@@ -1,8 +1,9 @@
 {
-    "name": "@mazz3015/scratchlib",
+    "name": "@ma15fo43/scratchlib",
     "version": "1.0.2",
     "description": "A powerful NPM module/library to interact with the Scratch API",
     "license": "MIT",
     "repository": "Ma15fo43/ScratchLib",
+    "homepage": "https://github.com/Ma15fo43/ScratchLib",
     "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
