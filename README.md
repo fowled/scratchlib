@@ -9,7 +9,7 @@
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/@ma15fo43/scratchlib"></a>
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dy/@ma15fo43/scratchlib"></a>
         <br><br>
-        <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="npm badge" src="https://nodei.co/npm/@ma15fo43/scratchlib.png"></a>
+        <a href="https://npmjs.com/package/@ma15fo43/scratchlib"><img src="https://nodeico.herokuapp.com/@ma15fo43/scratchlib.svg"></a>
     </p>
 </div>
 
