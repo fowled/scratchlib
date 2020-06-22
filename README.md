@@ -7,7 +7,7 @@
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img src="https://img.shields.io/npm/v/@ma15fo43/scratchlib" alt="npm shit"></a>
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="Libraries.io dependency status for latest release, scoped npm package" src="https://img.shields.io/librariesio/release/npm/@ma15fo43/scratchlib"></a>
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/@ma15fo43/scratchlib"></a>
-        <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dy/@ma15fo43/scratchlib"></a>
+        <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dt/@ma15fo43/scratchlib"></a>
         <br><br>
         <a href="https://npmjs.com/package/@ma15fo43/scratchlib"><img src="https://nodeico.herokuapp.com/@ma15fo43/scratchlib.svg"></a>
     </p>
