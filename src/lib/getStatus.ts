@@ -9,7 +9,7 @@ async function getStatus() {
             let data: {} = {
                 uptime: getDateTimestamp(parsed.uptime),
                 version: parsed.version,
-                load: [parsed.load[]],
+                load: [parsed.load[0]],
                 sql: { ssl: parsed.sql.ssl, started: parsed.sql.ssl, min: parsed.sql.min, max: parsed.sql.max }
             };
 
