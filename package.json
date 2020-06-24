@@ -13,7 +13,9 @@
         "scratchlib",
         "ScratchLib"
     ],
-
+    "scripts": {
+        "test": "tsc"
+    },
     "dependencies": {
         "typescript": "^3.9.5"
     }
