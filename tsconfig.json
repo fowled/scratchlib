@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
-    "outDir": "./built",
+    "outDir": "./out",
     "allowJs": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "target": "es6",
+    "skipLibCheck": true,
     "module": "commonjs"
   },
+  
   "include": [
     "./src/**/*"
   ],
+
   "exclude": [
-    "node_modules"
-  ]
+    "./node_modules/*"
+  ],
+
 }
