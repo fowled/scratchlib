@@ -8,8 +8,9 @@
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="Libraries.io dependency status for latest release, scoped npm package" src="https://img.shields.io/librariesio/release/npm/@ma15fo43/scratchlib"></a>
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/@ma15fo43/scratchlib"></a>
         <a href="https://www.npmjs.com/package/@ma15fo43/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dt/@ma15fo43/scratchlib"></a>
+        <a href="https://travis-ci.com/github/ma15fo43/ScratchLib"><img alt="travis" src="https://travis-ci.com/ma15fo43/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
         <br><br>
-        <a href="https://npmjs.com/package/@ma15fo43/scratchlib"><img src="https://nodeico.herokuapp.com/@ma15fo43/scratchlib.svg"></a>
+        <a href="https://nodei.co/npm/scratchlib/"><img src="https://nodei.co/npm/scratchlib.png?downloads=true"></a>
     </p>
 </div>
 
@@ -17,10 +18,10 @@
 - [About](#About)
 - [Installation](#Installation)
     - [Via NPM](#NPM)
-- [How to use](#how-to-use)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [Help](#help)
+- [How to use](#How-to-use)
+- [Examples](#Examples)
+- [Contributing](#Contributing)
+- [Help](#Help)
 
 ## About
 **ScratchLib** is a powerful **Node.JS module** to work with the [Scratch API](https://en.scratch-wiki.info/wiki/Scratch_API_(2.0)).
