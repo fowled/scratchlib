@@ -17,6 +17,9 @@
         "test": "tsc"
     },
     "dependencies": {
+        "@types/node-fetch": "^2.5.7",
+        "fetch": "^1.1.0",
+        "node-fetch": "^2.6.0",
         "typescript": "^3.9.5",
         "xmlhttprequest": "^1.8.0",
         "xmlhttprequest-ts": "^1.0.1"
