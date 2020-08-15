@@ -1,20 +1,24 @@
 {
   "compilerOptions": {
-    "outDir": "./out",
-    "allowJs": true,
+    "outDir": "./dist",
+    "allowJs": false,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "target": "es6",
     "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./dist/@types",
     "module": "commonjs"
   },
   
   "include": [
-    "./src/**/*"
+    "./lib/*"
   ],
 
   "exclude": [
-    "./node_modules/*"
+    "node_modules", 
+    "tests",
+    "dist"
   ],
 
 }
