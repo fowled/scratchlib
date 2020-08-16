@@ -39,9 +39,54 @@ const Scratchlib = require("scratchlib");
 Congrats - you can now access to the many properties this module offers!
 
 ## Documentation
+In order to use a method, you must choose between creating an `async function` or by adding a callback with `.then()`.
+<br>**`async function()`:**
+```javascript
+async function test() {
+    try {
+	    let info = await ScratchLib.getStatus();
+	    console.log(info);
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+test();
+```
+**`.then()` callback:**
+```javascript
+ScratchLib.getStatus().then(info => {
+	console.log(info);
+}).catch(err => {
+	console.error(err);
+});
+```
+Both equals to:
+```javascript
+{
+  version: '1d96065a1ea1d017949e2bd8e179762744d231f0',
+  uptime: 1013664,
+  load: [ 0.1611328125, 0.134765625, 0.09619140625 ],
+  sql: { ssl: true, min: 0, max: 40 },
+  cache: { connected: true, ready: true }
+}
+```
+⚠ Don't forget to catch the promise.
+```js
+ScratchLib.getUserActivity().then(info => {
+	console.log(info);
+}).catch(err => {
+	console.error(err);
+});
+```
+
+```
+Output: Parameter of type string is missing!
+```
+↪ You can get methods/documentation here: https://en.scratch-wiki.info/wiki/Scratch_API
 
 ## Contributing
-You can contribute to this project by doing a PR, that are greatly appreciated :wink:
+You can contribute to this project by doing a PR, that are very appreciated :wink:
 
 ## Help
 Do you need help? Message me on Discord: ```Mazz#4946```.
