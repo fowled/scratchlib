@@ -1,9 +1,8 @@
 const ScratchLib = require("../index.js");
 const Scratchlib = require("../index.js");
 
-async function test() {
-	let info = await ScratchLib.getUserActivity();
+ScratchLib.getUserMessages().then(info => {
 	console.log(info);
-}
-
-test();
+}).catch(err => {
+	console.error(err);
+});

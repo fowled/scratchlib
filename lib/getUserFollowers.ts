@@ -5,9 +5,9 @@ import fetch, { Response } from "node-fetch";
 async function getUserFollowers(username: string) {
     try {
         if (!username) {
-            throw "Parameter of type string is missing";
+            throw Error("Parameter username is missing.");
         } else if (typeof username !== "string") {
-            throw "Parameter specified must be of type string.";
+            throw Error("Parameter specified must be of type string.");
         }
 
         let url: string = `https://api.scratch.mit.edu/users/${username}/followers`;
@@ -16,7 +16,7 @@ async function getUserFollowers(username: string) {
 
         return parsedJSON;
     } catch (err) {
-        throw err;
+        return console.error(err.stack);
     }
 }
 

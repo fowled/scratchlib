@@ -5,9 +5,9 @@ import fetch, { Response } from "node-fetch";
 async function getProject(id: string) {
     try {
         if (!id) {
-            throw "Parameter of type string is missing. Please copy the ID of the project in the arg";
+            throw Error("Parameter 'id of the project' is missing.");
         } else if (typeof id !== "string") {
-            throw "Parameter specified must be of type string.";
+            throw Error("Parameter specified must be of type string.");
         }
 
         let url: string = `https://api.scratch.mit.edu/projects/${id}`;
@@ -16,7 +16,7 @@ async function getProject(id: string) {
 
         return parsedJSON;
     } catch (err) {
-        throw err;
+        return console.error(err.stack);
     }
 }
 
