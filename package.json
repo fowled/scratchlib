@@ -1,6 +1,6 @@
 {
   "name": "scratchlib",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "description": "A powerful NPM module/library to interact with the Scratch API",
   "license": "MIT",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/mazzlabs/ScratchLib.git"
   },
   "main": "index.js",
-  "types": "index.d.ts",
+  "types": "@types/index.d.ts",
   "keywords": [
     "mazz",
     "ma15fo43",
@@ -37,5 +37,5 @@
     "test": "tests"
   },
   "devDependencies": {},
-  "author": ""
+  "author": "mazzlabs"
 }

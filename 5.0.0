@@ -1,8 +1,0 @@
-+ @angular/common@10.0.9
-added 2 packages from 2 contributors and audited 81 packages in 9.199s
-
-1 package is looking for funding
-  run `npm fund` for details
-
-found 1 low severity vulnerability
-  run `npm audit fix` to fix them, or `npm audit` for details

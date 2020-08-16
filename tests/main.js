@@ -1,7 +1,7 @@
-const { getProfile } = require("../out/getProfile.js");
+import { getProfile } from "../dist/getProfile.js";
 
 async function test() {
-	let info = await getProfile("ma15fo43");
+	let info = await getProfile("griffpatch");
 	console.log(info);
 }
 

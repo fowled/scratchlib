@@ -1,11 +1,11 @@
-/// <reference path="../dist/@types/getStatus.d.ts" />
+/// <reference path="../@types/index.d.ts" />
 
-import fetch from "node-fetch";
+import fetch, { Response } from "node-fetch";
 
 async function getStatus() {
-    let url = "https://api.scratch.mit.edu/health";
-    let response = await fetch(url);
-    let parsedJSON = await response.json();
+    let url: string = "https://api.scratch.mit.edu/health";
+    let response: Response = await fetch(url);
+    let parsedJSON: JSON = await response.json();
 
     return parsedJSON;
 }

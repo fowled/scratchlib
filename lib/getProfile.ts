@@ -1,4 +1,4 @@
-/// <reference path="../dist/@types/getProfile.d.ts" />
+/// <reference path="../@types/index.d.ts" />
 
 import fetch from "node-fetch";
 
