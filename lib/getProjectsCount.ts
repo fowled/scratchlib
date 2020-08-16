@@ -2,9 +2,9 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getStatus() {
+async function getProjectsCount() {
     try {
-        let url: string = "https://api.scratch.mit.edu/health";
+        let url: string = "https://api.scratch.mit.edu/projects/count/all";
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 
@@ -14,4 +14,4 @@ async function getStatus() {
     }
 }
 
-export { getStatus };
+export { getProjectsCount };

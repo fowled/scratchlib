@@ -2,9 +2,9 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getStatus() {
+async function getRoot() {
     try {
-        let url: string = "https://api.scratch.mit.edu/health";
+        let url: string = "https://api.scratch.mit.edu/";
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 
@@ -14,4 +14,4 @@ async function getStatus() {
     }
 }
 
-export { getStatus };
+export { getRoot };
