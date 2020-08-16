@@ -18,6 +18,8 @@
     - [Via NPM](#NPM)
 - [How to use](#How-to-use)
 - [Documentation](#Documentation)
+    - [Methods](#Methods)
+    - [TypeScript](#TypeScript)
 - [Contributing](#Contributing)
 - [Help](#Help)
 
@@ -34,7 +36,7 @@ Start by requiring the module.
 ```javascript
 const Scratchlib = require("scratchlib");
 ```
-Congrats - you can now access to the many properties this module offers!
+:tada: Congrats - you can now access to the many properties this module offers!
 
 ## Documentation
 In order to use a method, you must choose between creating an `async function` or by adding a callback with `.then()`.
@@ -69,7 +71,7 @@ Both equals to:
   cache: { connected: true, ready: true }
 }
 ```
-⚠ Don't forget to catch the promise.
+:warning: Don't forget to catch the promise.
 ```js
 ScratchLib.getUserActivity().then(info => {
 	console.log(info);
@@ -81,7 +83,26 @@ ScratchLib.getUserActivity().then(info => {
 ```
 Output: Parameter of type string is missing!
 ```
-↪ You can get methods/documentation here: https://en.scratch-wiki.info/wiki/Scratch_API
+
+### Methods
+• ```getFeatured()``` - Returns information regarding the projects currently visible on the front page of the website. <br>
+• ```getNews()``` - Returns information regarding the "Scratch News" section of the homepage. <br>
+• ```getProfile(username: string)``` - Returns information about the specified user. <br>
+• ```getProject(id: string)``` - Returns information relevant to the given project. <br>
+• ```getProjectsCount()``` - Returns the total number of shared projects on the Scratch website. <br> 
+• ```getRoot()``` - The root of the api interface provides basic information regarding the API and the Scratch website. <br> 
+• ```getStatus()``` - Used to return the status of the Scratch website. (really? :P) <br>
+• ```getUserActivity(username: string)``` - Returns information regarding the "What I've been doing" section of a given user's profile. <br> 
+• ```getUserFavorites(username: string)``` - Returns an array of details regarding the projects that a given user has favourited on the website. <br> 
+• ```getUserFollowers(username: string)``` - Returns a list of a user's most recent followers. <br>
+• ```getUserFollowing(username: string)``` - Returns a list of the users that the specified user has most recently followed. <br> 
+• ```getUserMessages(username: string)``` - This returns the number of unread messages a user currently has. <br>
+• ```getUserProjects(username: string)``` - Returns an array with information regarding the projects that a given user has shared on the Scratch website. 
+
+:warning: The following methods are returning JSON data.
+
+### TypeScript
+:bulb: This module can be used with **TypeScript**! It even provides quality types that can be auto-completed from Visual Studio Code, or any editor that supports IntelliSense/autocompletion. 
 
 ## Contributing
 You can contribute to this project by doing a PR, that are very appreciated :wink:
