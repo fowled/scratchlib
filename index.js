@@ -1,1 +1,1 @@
-module.exports = require("dist/entrypoint.js");
+module.exports = require("./dist/entrypoint.js");
