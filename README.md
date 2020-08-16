@@ -27,9 +27,7 @@ It provides many *methods and properties* you never heard of, and does requests 
 
 ## Installation
 ### NPM
-Open a terminal. If you are beginning your project, init the folder with ```npm init```.
-It will create a **package.json** file.
-<br>Then, you have to install the dependencies, by doing ```npm install``` in the console.
+Open a terminal, and enter the following command: ```npm install scratchlib```
 
 ## How to use
 Start by requiring the module.
