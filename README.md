@@ -1,5 +1,5 @@
 <div align="center">
-    <h1><a href="https://www.npmjs.com/package/@ma15fo43/scratchlib">Scratchlib</a></h1>
+    <h1><a href="https://www.npmjs.com/package/scratchlib">Scratchlib</a></h1>
     <p>A powerful <b>library</b> to interact with the <b>Scratch API</b> 🚀</p>
     <p>
         <a href="https://www.npmjs.com/package/scratchlib"><img src="https://img.shields.io/npm/v/scratchlib" alt="npm shit"></a>
