@@ -16,7 +16,7 @@ async function getUserFollowers(username: string) {
 
         return parsedJSON;
     } catch (err) {
-        return console.error(err.stack);
+        return console.error('\x1b[33m%s\x1b[0m', err.stack);
     }
 }
 
