@@ -1,10 +1,9 @@
-const { getProfile, getStatus } = require("../index.js");
+const ScratchLib = require("../index.js");
+const Scratchlib = require("../index.js");
 
 async function test() {
-	let info = await getProfile("griffpatch");
+	let info = await ScratchLib.getUserActivity();
 	console.log(info);
-
-	let test = await getStatus()
 }
 
 test();
