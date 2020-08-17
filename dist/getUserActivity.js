@@ -21,7 +21,7 @@ function getUserActivity(username) {
             else if (typeof username !== "string") {
                 throw Error("Parameter specified must be of type string.");
             }
-            let url = `https://api.scratch.mit.edu/users/${username}/activity`;
+            let url = `https://api.scratch.mit.edu/proxy/users/${username}/activity`;
             let response = yield node_fetch_1.default(url);
             let parsedJSON = yield response.json();
             return parsedJSON;
