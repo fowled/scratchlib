@@ -10,7 +10,7 @@ async function getUserActivity(username: string) {
             throw Error("Parameter specified must be of type string.");
         }
 
-        let url: string = `https://api.scratch.mit.edu/users/${username}/activity`;
+        let url: string = `https://api.scratch.mit.edu/proxy/users/${username}/activity`;
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 
