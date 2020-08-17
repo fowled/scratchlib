@@ -5,7 +5,6 @@ export * from "./getProject";
 export * from "./getProjectsCount";
 export * from "./getRoot";
 export * from "./getStatus";
-export * from "./getUserActivity";
 export * from "./getUserFavorites";
 export * from "./getUserFollowers";
 export * from "./getUserFollowing";

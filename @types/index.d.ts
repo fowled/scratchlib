@@ -10,7 +10,6 @@ declare module 'scratchlib' {
     export function getProjectsCount(): Promise<JSON>;
     export function getRoot(): Promise<JSON>;
     export function getStatus(): Promise<JSON>;
-    export function getUserActivity(user: string): Promise<JSON>;
     export function getUserFavorites(user: string): Promise<JSON>;
     export function getUserFollowers(user: string): Promise<JSON>;
     export function getUserFollowing(user: string): Promise<JSON>;

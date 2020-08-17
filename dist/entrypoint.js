@@ -17,7 +17,6 @@ __exportStar(require("./getProject"), exports);
 __exportStar(require("./getProjectsCount"), exports);
 __exportStar(require("./getRoot"), exports);
 __exportStar(require("./getStatus"), exports);
-__exportStar(require("./getUserActivity"), exports);
 __exportStar(require("./getUserFavorites"), exports);
 __exportStar(require("./getUserFollowers"), exports);
 __exportStar(require("./getUserFollowing"), exports);
