@@ -20,6 +20,7 @@
 - [Documentation](#Documentation)
     - [Methods](#Methods)
     - [TypeScript](#TypeScript)
+    - [Web](#Web)
 - [Contributing](#Contributing)
 - [Help](#Help)
 
@@ -92,7 +93,6 @@ Output: Parameter of type string is missing!
 • ```getProjectsCount()``` - Returns the total number of shared projects on the Scratch website. <br> 
 • ```getRoot()``` - The root of the api interface provides basic information regarding the API and the Scratch website. <br> 
 • ```getStatus()``` - Used to return the status of the Scratch website. (really? :P) <br>
-• ```getUserActivity(username: string)``` - Returns information regarding the "What I've been doing" section of a given user's profile. <br> 
 • ```getUserFavorites(username: string)``` - Returns an array of details regarding the projects that a given user has favourited on the website. <br> 
 • ```getUserFollowers(username: string)``` - Returns a list of a user's most recent followers. <br>
 • ```getUserFollowing(username: string)``` - Returns a list of the users that the specified user has most recently followed. <br> 
@@ -104,8 +104,11 @@ Output: Parameter of type string is missing!
 ### TypeScript
 :bulb: This module can be used with **TypeScript**! It even provides quality types that can be auto-completed from Visual Studio Code, or any editor that supports IntelliSense/autocompletion. 
 
+### Web
+:globe_with_meridians: This library can also be used the **Web**! You'll need help from [browserify](https://browserify.org) though.
+
 ## Contributing
-You can contribute to this project by doing a PR, that are very appreciated :wink:
+You can contribute to this project by doing a PR :heart:
 
 ## Help
-Do you need help? Message me on Discord: ```Mazz#4946```.
+Do you need help? Message me on Discord: ```Mazz#6969``` (tag might change).
