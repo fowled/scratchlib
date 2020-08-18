@@ -74,7 +74,7 @@ Both equals to:
 ```
 :warning: Don't forget to catch the promise.
 ```js
-ScratchLib.getUserActivity().then(info => {
+ScratchLib.getUserFollowers().then(info => {
 	console.log(info);
 }).catch(err => {
 	console.error(err);
