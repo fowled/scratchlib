@@ -105,7 +105,7 @@ Output: Parameter of type string is missing!
 :bulb: This module can be used with **TypeScript**! It even provides quality types that can be auto-completed from Visual Studio Code, or any editor that supports IntelliSense/autocompletion. 
 
 ### Web
-:globe_with_meridians: This library can also be used the **Web**! You'll need help from [browserify](https://browserify.org) though.
+:globe_with_meridians: This library can also be used on the **Web**! You'll need help from [browserify](https://browserify.org) though.
 
 ## Contributing
 You can contribute to this project by doing a PR :heart:
