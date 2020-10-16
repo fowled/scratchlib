@@ -1,6 +1,6 @@
 {
   "name": "scratchlib",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A powerful NPM module/library to interact with the Scratch API",
   "license": "MIT",
   "repository": {
@@ -20,8 +20,8 @@
     "test": "tsc"
   },
   "dependencies": {
-    "@types/node-fetch": "latest",
-    "node-fetch": "latest",
+    "@types/node-fetch": "^2.5.7",
+    "node-fetch": "^2.6.1",
     "typescript": "^4.0.3"
   },
   "bugs": {
