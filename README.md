@@ -3,7 +3,7 @@
     <p>A powerful <b>library</b> to interact with the <b>Scratch API</b> 🚀</p>
     <p>
         <a href="https://www.npmjs.com/package/scratchlib"><img src="https://img.shields.io/npm/v/scratchlib" alt="npm shit"></a>
-        <a href="https://www.npmjs.com/package/scratchlib"><img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/mazzlabs/scratchlib"></a>
+        <a href="https://www.npmjs.com/package/scratchlib"><img src="https://snyk-widget.herokuapp.com/badge/npm/scratchlib/badge.svg"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/scratchlib"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dt/scratchlib"></a>
         <a href="https://travis-ci.com/github/mazzlabs/ScratchLib"><img alt="travis" src="https://travis-ci.com/mazzlabs/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
