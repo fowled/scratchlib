@@ -21,6 +21,9 @@
   },
   "dependencies": {
     "@types/node-fetch": "^2.5.7",
+    "cors-anywhere": "^0.4.3",
+    "dotenv": "^8.2.0",
+    "http-proxy": "^1.18.1",
     "mime-db": "^1.45.0",
     "node-fetch": "^2.6.1",
     "typescript": "^4.0.3"
