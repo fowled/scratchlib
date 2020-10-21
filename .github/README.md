@@ -110,7 +110,7 @@ Output: Parameter of type string is missing!
 
 ### Cross-origin resource sharing (CORS)
 If you use this module in the browser, you'll probably encounter a **problem**: *CORS*.
-Thanks to @locness3 (https://github.com/mazzlabs/ScratchLib/issues/3), this library now supports proxies. 
+Thanks to @locness3 (#3), this library now supports proxies. 
 You just have to specify a parameter, which *must* be equal to your proxy URL as follows: ```http://host:port```.
 ```javascript
 ScratchLib.getFeatured("http://localhost:8080").then(info => {
@@ -124,4 +124,4 @@ ScratchLib.getFeatured("http://localhost:8080").then(info => {
 You can contribute to this project by doing a PR :heart:
 
 ## Help
-Do you need help? Message me on Discord: ```Mazz#6969``` (tag might change).
+Do you need help? Create an [issue](https://github.com/mazzlabs/ScratchLib/issues/new)!
