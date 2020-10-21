@@ -1,6 +1,6 @@
 {
   "name": "scratchlib",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "A powerful NPM module/library to interact with the Scratch API",
   "license": "MIT",
   "repository": {
