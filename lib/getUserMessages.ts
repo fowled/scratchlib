@@ -2,7 +2,7 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getUserMessages(username: string) {
+async function getUserMessages(username: string, proxy?: string) {
     try {
         if (!username) {
             throw Error("Parameter username is missing.");
@@ -10,7 +10,7 @@ async function getUserMessages(username: string) {
             throw Error("Parameter specified must be of type string.");
         }
 
-        let url: string = `https://api.scratch.mit.edu/users/${username}/messages/count`;
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}/messages/count` : `https://api.scratch.mit.edu/users/${username}/messages/count`;
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 

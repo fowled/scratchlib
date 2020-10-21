@@ -2,7 +2,7 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getProject(id: string) {
+async function getProject(id: string, proxy?: string) {
     try {
         if (!id) {
             throw Error("Parameter 'id of the project' is missing.");
@@ -10,7 +10,7 @@ async function getProject(id: string) {
             throw Error("Parameter specified must be of type string.");
         }
 
-        let url: string = `https://api.scratch.mit.edu/projects/${id}`;
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/projects/${id}` : `https://api.scratch.mit.edu/projects/${id}`;
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 

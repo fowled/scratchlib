@@ -2,9 +2,9 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getFeatured() {
+async function getFeatured(proxy?: string) {
     try {
-        let url: string = "https://api.scratch.mit.edu/proxy/featured";
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/proxy/featured` : "https://api.scratch.mit.edu/proxy/featured";
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 

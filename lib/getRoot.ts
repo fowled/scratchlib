@@ -2,9 +2,9 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getRoot() {
+async function getRoot(proxy?: string) {
     try {
-        let url: string = "https://api.scratch.mit.edu/";
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/` :"https://api.scratch.mit.edu/";
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 

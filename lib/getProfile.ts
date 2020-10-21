@@ -2,7 +2,7 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getProfile(username: string) {
+async function getProfile(username: string, proxy?: string) {
     try {
         if (!username) {
             throw Error("Parameter username is missing.");
@@ -10,7 +10,7 @@ async function getProfile(username: string) {
             throw Error("Parameter specified must be of type string.");
         }
 
-        let url = `https://api.scratch.mit.edu/users/${username}`;
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}` : `https://api.scratch.mit.edu/users/${username}`;
         let req: Response = await fetch(url);
         let parsedJSON = await req.json();
 

@@ -2,9 +2,9 @@
 
 import fetch, { Response } from "node-fetch";
 
-async function getNews() {
+async function getNews(proxy?: string) {
     try {
-        let url: string = "https://api.scratch.mit.edu/news";
+        let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/news` : "https://api.scratch.mit.edu/news";
         let response: Response = await fetch(url);
         let parsedJSON: JSON = await response.json();
 
