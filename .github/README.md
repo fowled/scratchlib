@@ -40,8 +40,9 @@ const Scratchlib = require("scratchlib");
 :tada: Congrats - you can now access to the many properties this module offers!
 
 ## Documentation
-In order to use a method, you must choose between creating an `async function` or by adding a callback with `.then()`.
-<br>**`async function()`:**
+In order to use a method, you must choose between creating an `async function` or by adding a callback with `.then()`. <br>
+
+**`async function()`:**
 ```javascript
 async function test() {
     try {
@@ -73,7 +74,7 @@ Both equals to:
 }
 ```
 :warning: Don't forget to catch the promise.
-```js
+```javascript
 ScratchLib.getUserFollowers().then(info => {
 	console.log(info);
 }).catch(err => {
@@ -106,6 +107,18 @@ Output: Parameter of type string is missing!
 
 ### Web
 :globe_with_meridians: This library can also be used on the **Web**! You'll need help from [browserify](https://browserify.org) though.
+
+### Cross-origin resource sharing (CORS)
+If you use this module in the browser, you'll probably encounter a **problem**: *CORS*.
+Thanks to @locness3 (https://github.com/mazzlabs/ScratchLib/issues/3), this library now supports proxies. 
+You just have to specify a parameter, which *must* be equal to your proxy URL as follows: ```http://host:port```.
+```javascript
+ScratchLib.getFeatured("http://localhost:8080").then(info => {
+	console.log(info);
+}).catch(err => {
+	console.error(err);
+});
+```
 
 ## Contributing
 You can contribute to this project by doing a PR :heart:
