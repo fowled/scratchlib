@@ -12,10 +12,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getStatus = void 0;
 const node_fetch_1 = require("node-fetch");
-function getStatus() {
+function getStatus(proxy) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            let url = "https://api.scratch.mit.edu/health";
+            let url = proxy ? `${proxy}/https://api.scratch.mit.edu/health` : "https://api.scratch.mit.edu/health";
             let response = yield node_fetch_1.default(url);
             let parsedJSON = yield response.json();
             return parsedJSON;

@@ -12,7 +12,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getProject = void 0;
 const node_fetch_1 = require("node-fetch");
-function getProject(id) {
+function getProject(id, proxy) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             if (!id) {
@@ -21,7 +21,7 @@ function getProject(id) {
             else if (typeof id !== "string") {
                 throw Error("Parameter specified must be of type string.");
             }
-            let url = `https://api.scratch.mit.edu/projects/${id}`;
+            let url = proxy ? `${proxy}/https://api.scratch.mit.edu/projects/${id}` : `https://api.scratch.mit.edu/projects/${id}`;
             let response = yield node_fetch_1.default(url);
             let parsedJSON = yield response.json();
             return parsedJSON;

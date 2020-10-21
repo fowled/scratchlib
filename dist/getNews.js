@@ -12,10 +12,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getNews = void 0;
 const node_fetch_1 = require("node-fetch");
-function getNews() {
+function getNews(proxy) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            let url = "https://api.scratch.mit.edu/news";
+            let url = proxy ? `${proxy}/https://api.scratch.mit.edu/news` : "https://api.scratch.mit.edu/news";
             let response = yield node_fetch_1.default(url);
             let parsedJSON = yield response.json();
             return parsedJSON;
