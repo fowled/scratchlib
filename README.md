@@ -2,10 +2,12 @@
     <h1><a href="https://www.npmjs.com/package/scratchlib">Scratchlib</a></h1>
     <p>A powerful <b>library</b> to interact with the <b>Scratch API</b> 🚀</p>
     <p>
+        <a href="https://travis-ci.com/github/mazzlabs/ScratchLib"><img alt="travis" src="https://travis-ci.com/mazzlabs/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img src="https://img.shields.io/npm/v/scratchlib" alt="npm shit"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/scratchlib"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dt/scratchlib"></a>
-        <a href="https://travis-ci.com/github/mazzlabs/ScratchLib"><img alt="travis" src="https://travis-ci.com/mazzlabs/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
+	<img src="https://badges.depfu.com/badges/5fab262081d9c5203c68a017d4220151/status.svg" />
+	<img src="https://badges.depfu.com/badges/5fab262081d9c5203c68a017d4220151/overview.svg" />
         <br><br>
         <a href="https://nodei.co/npm/scratchlib/"><img src="https://nodei.co/npm/scratchlib.png?downloads=true"></a>
     </p>
