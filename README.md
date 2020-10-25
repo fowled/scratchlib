@@ -108,7 +108,7 @@ Output: Parameter of type string is missing!
 ### Web
 :globe_with_meridians: This library can also be used on the **Web**! You'll need help from [browserify](https://browserify.org) though.
 
-### Cross-origin resource sharing (CORS)
+### CORS
 If you use this module in the browser, you'll probably encounter a **problem**: *CORS*, which means 'Cross-origin resource sharing'. <br>
 Thanks to [@locness3](https://github.com/locness3) ([#3](https://github.com/mazzlabs/ScratchLib/issues/3)), this library now supports proxies. <br> 
 You just have to specify a parameter, which *must* be equal to your proxy URL as follows: ```http://host:port```.
