@@ -2,10 +2,12 @@
     <h1><a href="https://www.npmjs.com/package/scratchlib">Scratchlib</a></h1>
     <p>A powerful <b>library</b> to interact with the <b>Scratch API</b> 🚀</p>
     <p>
+        <a href="https://travis-ci.com/github/mazzlabs/ScratchLib"><img alt="travis" src="https://travis-ci.com/mazzlabs/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img src="https://img.shields.io/npm/v/scratchlib" alt="npm shit"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="NPM license" src="https://img.shields.io/npm/l/scratchlib"></a>
         <a href="https://www.npmjs.com/package/scratchlib"><img alt="npm" src="https://img.shields.io/npm/dt/scratchlib"></a>
-        <a href="https://travis-ci.com/github/mazzlabs/ScratchLib"><img alt="travis" src="https://travis-ci.com/mazzlabs/ScratchLib.svg?token=Cr4qTHeGpqFut83csnvB&branch=master"></a>
+	<img src="https://badges.depfu.com/badges/5fab262081d9c5203c68a017d4220151/status.svg" />
+	<img src="https://badges.depfu.com/badges/5fab262081d9c5203c68a017d4220151/overview.svg" />
         <br><br>
         <a href="https://nodei.co/npm/scratchlib/"><img src="https://nodei.co/npm/scratchlib.png?downloads=true"></a>
     </p>
@@ -108,7 +110,7 @@ Output: Parameter of type string is missing!
 ### Web
 :globe_with_meridians: This library can also be used on the **Web**! You'll need help from [browserify](https://browserify.org) though.
 
-### Cross-origin resource sharing (CORS)
+### CORS
 If you use this module in the browser, you'll probably encounter a **problem**: *CORS*, which means 'Cross-origin resource sharing'. <br>
 Thanks to [@locness3](https://github.com/locness3) ([#3](https://github.com/mazzlabs/ScratchLib/issues/3)), this library now supports proxies. <br> 
 You just have to specify a parameter, which *must* be equal to your proxy URL as follows: ```http://host:port```.
