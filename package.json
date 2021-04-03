@@ -20,7 +20,7 @@
     "test": "tsc"
   },
   "dependencies": {
-    "@types/node-fetch": "^2.5.8",
+    "@types/node-fetch": "^2.5.9",
     "cors-anywhere": "^0.4.4",
     "dotenv": "^8.2.0",
     "http-proxy": "^1.18.1",
