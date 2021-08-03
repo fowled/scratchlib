@@ -46,8 +46,8 @@ In order to use a method, you must choose between creating an `async function` o
 ```javascript
 async function test() {
     try {
-	    let info = await ScratchLib.getStatus();
-	    console.log(info);
+	let info = await ScratchLib.getStatus();
+	console.log(info);
     } catch (err) {
         console.error(err);
     }
