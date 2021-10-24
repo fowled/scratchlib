@@ -12,7 +12,7 @@ async function getUserFavorites(username: string, proxy?: string) {
 
         let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}/favorites` : `https://api.scratch.mit.edu/users/${username}/favorites`;
         let response: Response = await fetch(url);
-        let parsedJSON: JSON = await response.json();
+        let parsedJSON = await response.json();
 
         return parsedJSON;
     } catch (err) {

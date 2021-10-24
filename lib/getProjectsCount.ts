@@ -6,7 +6,7 @@ async function getProjectsCount(proxy?: string) {
     try {
         let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/projects/count/all` : "https://api.scratch.mit.edu/projects/count/all";
         let response: Response = await fetch(url);
-        let parsedJSON: JSON = await response.json();
+        let parsedJSON = await response.json();
 
         return parsedJSON;
     } catch (err) {

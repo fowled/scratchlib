@@ -22,7 +22,7 @@ function getUserProjects(username, proxy) {
                 throw Error("Parameter specified must be of type string.");
             }
             let url = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}/projects` : `https://api.scratch.mit.edu/users/${username}/projects`;
-            let response = yield node_fetch_1.default(url);
+            let response = yield (0, node_fetch_1.default)(url);
             let parsedJSON = yield response.json();
             return parsedJSON;
         }

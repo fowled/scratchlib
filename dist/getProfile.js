@@ -22,7 +22,7 @@ function getProfile(username, proxy) {
                 throw Error("Parameter specified must be of type string.");
             }
             let url = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}` : `https://api.scratch.mit.edu/users/${username}`;
-            let req = yield node_fetch_1.default(url);
+            let req = yield (0, node_fetch_1.default)(url);
             let parsedJSON = yield req.json();
             return parsedJSON;
         }

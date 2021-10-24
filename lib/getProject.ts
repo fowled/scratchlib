@@ -12,7 +12,7 @@ async function getProject(id: string, proxy?: string) {
 
         let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/projects/${id}` : `https://api.scratch.mit.edu/projects/${id}`;
         let response: Response = await fetch(url);
-        let parsedJSON: JSON = await response.json();
+        let parsedJSON = await response.json();
 
         return parsedJSON;
     } catch (err) {

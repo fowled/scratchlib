@@ -12,7 +12,7 @@ async function getUserMessages(username: string, proxy?: string) {
 
         let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}/messages/count` : `https://api.scratch.mit.edu/users/${username}/messages/count`;
         let response: Response = await fetch(url);
-        let parsedJSON: JSON = await response.json();
+        let parsedJSON = await response.json();
 
         return parsedJSON;
     } catch (err) {

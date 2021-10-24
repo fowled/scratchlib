@@ -16,7 +16,7 @@ function getFeatured(proxy) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             let url = proxy ? `${proxy}/https://api.scratch.mit.edu/proxy/featured` : "https://api.scratch.mit.edu/proxy/featured";
-            let response = yield node_fetch_1.default(url);
+            let response = yield (0, node_fetch_1.default)(url);
             let parsedJSON = yield response.json();
             return parsedJSON;
         }

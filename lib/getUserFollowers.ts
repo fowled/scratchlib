@@ -12,7 +12,7 @@ async function getUserFollowers(username: string, proxy?: string) {
 
         let url: string = proxy ? `${proxy}/https://api.scratch.mit.edu/users/${username}/followers` : `https://api.scratch.mit.edu/users/${username}/followers`;
         let response: Response = await fetch(url);
-        let parsedJSON: JSON = await response.json();
+        let parsedJSON = await response.json();
 
         return parsedJSON;
     } catch (err) {
