@@ -22,7 +22,7 @@
   "dependencies": {
     "@types/node-fetch": "^3.0.3",
     "cors-anywhere": "^0.4.4",
-    "dotenv": "^14.1.0",
+    "dotenv": "^14.2.0",
     "http-proxy": "^1.18.1",
     "mime-db": "^1.51.0",
     "node-fetch": "^3.1.1",
