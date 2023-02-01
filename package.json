@@ -26,7 +26,7 @@
     "http-proxy": "^1.18.1",
     "mime-db": "^1.52.0",
     "node-fetch": "^3.3.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "bugs": {
     "url": "https://github.com/mazzlabs/ScratchLib/issues"
